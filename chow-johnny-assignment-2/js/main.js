@@ -9,3 +9,16 @@ const products = [
 
 
   // 5 functions? pagination, sort by tagged new, sort in order, ascending, descending 
+
+
+
+
+  // search by product name 
+
+
+
+  // sort by product type - show a certain type 
+
+
+
+  // pagination
