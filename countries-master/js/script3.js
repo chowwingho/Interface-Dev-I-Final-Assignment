@@ -1,0 +1,17 @@
+const tatoos = [
+    {name: `Winter Rose`, price: 25, pic: `.png`, type: `premium`}, 
+    {name: `Summer in Bali`, price: 22, pic: `.png`, , type: `basic`}, 
+    {name: `North by Northwest`price: 24, pic: `.png`, , type: `basic`}, 
+    {name: `Self Care`, price: 26, pic: `.png`, , type: `premium`}, 
+    {name: `ThornLess`, price: 28, pic: `.png`, , type: `premium`}, 
+    {name: `Inner Peace`, price: 35, pic: `.png`, , type: `premium`},
+    {name: `Hear me roar`, price: 55, pic: `.png`, type: `basic`} ,
+    {name: `Every problem's a nail`, price: 15, pic: `.png`, type: `premium`} ,
+    {name: `Forbidden Love`, price: 21, pic: `.png`, type: `basic`} ,
+    {name: `Not a wallflower`, price: 22, pic: `.png`,type: `premium`} ,
+    {name: `Lakeside`, price: 25, pic: `.png`, type: `basic`} ,
+    {name: `Summer Daisy`, price: 32, pic: `.png`, type: `premium` } ,
+    {name: `The forest for the trees`, price: 37, pic: `.png`, type: `basic`} ,
+    {name: `Midnight driving`, price: 19, pic: `.png`, type: `basic`} ,
+    {name: `Bad decisions`, price: 23, pic: `.png`, type: `basic`} ,
+];
