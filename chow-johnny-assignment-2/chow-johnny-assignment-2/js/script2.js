@@ -79,14 +79,14 @@ return `
 
 
   // Filter Function #3 -- Filter by type 
-  const filterByNorth = (event) => {
-    const showNorthCountries = products.filter (product => product.type == `Premium`);
-    printProductsToList (showNorthCountries);
+  const filterByPremium = (event) => {
+    const showPremProd = products.filter (product => product.type == `Premium`);
+    printProductsToList (showPremProd);
   }
 
-  const filterBySouth = (event) => {
-    const showSouthCountries = products.filter (product => product.type == `Basic`);
-    printProductsToList (showSouthCountries);      
+  const filterByBasic = (event) => {
+    const showBasProd = products.filter (product => product.type == `Basic`);
+    printProductsToList (showBasProd);      
   }
 
 /*******************************
@@ -100,8 +100,8 @@ document.getElementById(`btnpg1`).addEventListener(`click`, (event) => { showPro
 document.getElementById(`btnpg2`).addEventListener(`click`, (event) => { showProductRange(5)});
 document.getElementById(`btnpg3`).addEventListener(`click`, (event) => { showProductRange(10)});
 
-document.getElementById(`btnnorth`).addEventListener(`click`, filterByNorth);
-document.getElementById(`btnsouth`).addEventListener(`click`, filterBySouth);
+document.getElementById(`btnprem`).addEventListener(`click`, filterByPremium);
+document.getElementById(`btnbas`).addEventListener(`click`, filterByBasic);
 
 // SEARCH
 document.getElementById(`search`).addEventListener(`keyup`, (event) => {
